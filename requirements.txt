@@ -1,42 +1,6 @@
-# SALAAR X SPENCER ULTRA BOT - Dependencies
-# Version: 8.0.0
-
-# Core
 pyTelegramBotAPI==4.16.0
 requests==2.31.0
 python-dotenv==1.0.0
-
-# Web Dashboard
 flask==2.3.0
-
-# Async Support
-aiohttp==3.9.1
-
-# Data Processing
-pandas==2.0.3
-numpy==1.24.3
-
-# Visualization (for analytics)
-matplotlib==3.7.2
-
-# Security
-cryptography==41.0.0
-
-# Database
-sqlalchemy==2.0.19
-
-# Rate Limiting
-redis==4.6.0  # Optional, for distributed rate limiting
-
-# Monitoring
-psutil==5.9.5
-
-# Testing
-pytest==7.4.0
-
-# Utilities
-python-dateutil==2.8.2
-pytz==2023.3
-
-# Production Server (for web dashboard)
+aiohttp==3.9.1shboard)
 gunicorn==21.2.0
